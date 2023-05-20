@@ -13,5 +13,5 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-DEFAULT_FOLDER = splitkb/aurora/corne/rev1
-WPM_ENABLE = yes
+# Although no rules are defined,
+# presence of this file is required for QMK to compile it.

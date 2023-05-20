@@ -1,4 +1,4 @@
-# Copyright 2022 splitkb.com <support@splitkb.com>
+# Copyright 2022 x123
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -13,5 +13,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-DEFAULT_FOLDER = splitkb/aurora/corne/rev1
-WPM_ENABLE = yes
+RGB_MATRIX_ENABLE = no
+RGBLIGHT_ENABLE = no
+MOUSEKEY_ENABLE = yes    # Mouse keys
+OLED_ENABLE     = no
+LTO_ENABLE      = yes
+UNICODE_ENABLE  = yes
+DYNAMIC_TAPPING_TERM_ENABLE	= yes

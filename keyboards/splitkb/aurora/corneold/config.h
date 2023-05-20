@@ -22,5 +22,4 @@
 #   define RGBLIGHT_HUE_STEP 10
 #   define RGBLIGHT_DEFAULT_HUE 0
 #	define SPLIT_WPM_ENABLE
-#   define ANIM_INVERT false
 #endif
