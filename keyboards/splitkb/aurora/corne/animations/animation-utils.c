@@ -28,7 +28,7 @@ static void oled_render_anim_frame(const char **fast_frames, const char **slow_f
   static uint8_t current_frame = 0;
   static int16_t frame_offset = 0;
 
-  const uint8_t speed = get_current_wpm();
+  const uint8_t speed = 50;
 
 
   if (timer_elapsed32(anim_timer) > ANIM_FRAME_TIME && speed > 0 && rgblight_get_val() == 0) {
